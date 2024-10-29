@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "react-jsx", // For React 17 and later
+    "strict": true, // Optional: enable strict type-checking options
+    // ... other options
+  },
+  "include": ["src"], // Make sure to include your source directory
+  // ... other settings
+}

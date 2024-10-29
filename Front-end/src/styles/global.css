@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --white: 0 0% 100%;
+        --dark: 0 0% 6%;
+        --lightgray: 0 0% 85%;
+        --blue: 204 96% 30%;
+        --green: 86 29% 53%;
+    }
+}
+
+@layer base {
+    * {
+      @apply border-lightgray;
+    }
+    body {
+      @apply bg-white text-dark;
+    }
+  }
